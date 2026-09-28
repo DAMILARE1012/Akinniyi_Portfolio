@@ -1,0 +1,105 @@
+{
+  "profile": {
+    "name": "Abraham Akinniyi O.",
+    "shortName": "Abraham Akinniyi",
+    "role": "MEP Project Engineer",
+    "location": "Lagos, Nigeria",
+    "phone": "+2348163572105",
+    "phoneDisplay": "+234 816 357 2105",
+    "email": "",
+    "linkedin": "https://bit.ly/Abraham_Linkedln",
+    "cv": "/Abraham-Akinniyi-CV.pdf",
+    "availability": "Open to MEP & electrical engineering roles",
+    "headline": "Electrical project execution, from installation to commissioning.",
+    "intro": "I support MEP projects through installation, inspection, testing, commissioning and quality control — keeping every electrical system safe, compliant and reliable.",
+    "summary": [
+      "I am an MEP Project Engineer with hands-on experience supporting electrical project execution, installation, inspection, testing, commissioning, and quality control.",
+      "I am skilled in site coordination, technical documentation, troubleshooting, and ensuring compliance with engineering, safety, and quality requirements. With a strong foundation in electrical systems and project execution, I bring a practical, detail-oriented approach to delivering reliable engineering solutions."
+    ],
+    "facts": [
+      { "label": "Current role", "value": "MEP Project Engineer" },
+      { "label": "Degree", "value": "B.Tech, Electrical & Electronics Eng." },
+      { "label": "Membership", "value": "Graduate Member, NSE" },
+      { "label": "Based in", "value": "Lagos, Nigeria" }
+    ]
+  },
+  "competencies": [
+    { "title": "MEP Project Execution", "icon": "zap", "description": "Supporting electrical installation, inspection, testing and commissioning across project sites." },
+    { "title": "Site Coordination & Supervision", "icon": "hardhat", "description": "Coordinating and monitoring electrical works on site alongside senior engineers and trade teams." },
+    { "title": "Technical Documentation", "icon": "file", "description": "Preparing drawings, measurements, datasheets, quality records and project documentation." },
+    { "title": "Engineering Drawings Interpretation", "icon": "ruler", "description": "Reading and applying engineering drawings to guide accurate installation on site." },
+    { "title": "Quality & Safety Compliance", "icon": "shield", "description": "Making sure work meets engineering, safety, quality and applicable industry standards." },
+    { "title": "Team Collaboration & Coordination", "icon": "users", "description": "Working with production, technical and site teams to resolve issues quickly." }
+  ],
+  "technicalSkills": [
+    "Electrical installation",
+    "Testing & commissioning",
+    "Cable testing",
+    "Cable fault analysis",
+    "Fault locator devices",
+    "Troubleshooting",
+    "Quality inspection (QA/QC)",
+    "Technical datasheets",
+    "ERP systems",
+    "Production planning",
+    "Inventory management",
+    "Process improvement"
+  ],
+  "experience": [
+    {
+      "id": "first-lakeside",
+      "role": "MEP Project Engineer",
+      "company": "First Lakeside Technologies",
+      "location": "Lagos State",
+      "start": "2026-08",
+      "end": null,
+      "period": "Aug 2026 – Present",
+      "highlights": [
+        "Support electrical engineering and project execution activities across project sites.",
+        "Assist with electrical installation, inspection, testing, and commissioning activities.",
+        "Participate in troubleshooting and identification of electrical installation issues.",
+        "Support site coordination and monitoring of electrical works.",
+        "Assist with technical documentation, drawings, measurements, and project records.",
+        "Ensure assigned activities comply with safety, quality, and engineering requirements.",
+        "Work under the supervision of senior engineers, continuously building practical knowledge of electrical systems, construction processes, and project execution."
+      ]
+    },
+    {
+      "id": "nigerchin",
+      "role": "Quality Control Officer",
+      "company": "Nigerchin Electrical Development Company Limited",
+      "location": "Lagos State",
+      "start": "2023-04",
+      "end": "2023-10",
+      "period": "Apr 2023 – Oct 2023",
+      "highlights": [
+        "Conducted quality inspections on raw materials and finished cable products, ensuring compliance with industry and international standards.",
+        "Performed cable testing to verify compliance with required technical and quality specifications.",
+        "Performed cable fault analysis using locator devices, reducing product failure rates and improving reliability.",
+        "Improved production quality by enforcing standardised testing procedures and quality benchmarks.",
+        "Developed and implemented technical datasheets, enhancing documentation accuracy and traceability.",
+        "Collaborated with production teams to reduce defects and improve overall process efficiency.",
+        "Utilised ERP systems to optimise inventory management and production planning workflows.",
+        "Monitored production processes and supported quality assurance and process improvement initiatives."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech, Electrical & Electronics Engineering",
+      "grade": "Second Class Upper",
+      "school": "Ladoke Akintola University of Technology",
+      "location": "Ogbomoso",
+      "date": "Aug 2021"
+    }
+  ],
+  "certifications": [
+    { "title": "Graduate Member, Nigerian Society of Engineers (GNSE)", "issuer": "Nigerian Society of Engineers", "date": "Aug 2021" },
+    { "title": "National Youth Service Corps (NYSC) Discharge Certificate", "issuer": "NYSC", "date": "Aug 2022" }
+  ],
+  "strengths": [
+    "Strong attention to detail with a track record of maintaining high-quality standards.",
+    "Ability to work in fast-paced industrial environments with minimal supervision.",
+    "Committed to continuous learning and engineering excellence."
+  ]
+}

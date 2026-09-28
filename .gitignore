@@ -1,0 +1,72 @@
+# ---------- Dependencies ----------
+node_modules/
+.pnp
+.pnp.js
+.yarn/
+
+# ---------- Build output ----------
+dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+.vite/
+
+# ---------- Environment variables ----------
+# Keep real values out of git; .env.example documents what is needed.
+.env
+.env.*
+!.env.example
+
+# ---------- Claude Code ----------
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+
+# ---------- Logs & debug ----------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---------- Testing & audit reports ----------
+coverage/
+.nyc_output/
+lighthouse*.json
+lh-*.json
+
+# ---------- Caches ----------
+.cache/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.temp/
+.tmp/
+
+# ---------- Deployment platforms ----------
+.vercel/
+.netlify/
+.firebase/
+
+# ---------- Editors & IDEs ----------
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---------- Local-only files ----------
+*.local
