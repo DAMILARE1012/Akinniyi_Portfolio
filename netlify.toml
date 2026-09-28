@@ -1,0 +1,5 @@
+[build]
+  # Runs the Vite build once the project source (package.json) is in the repo.
+  # Until then, publishes a placeholder page so deploys don't fail.
+  command = "if [ -f package.json ]; then npm run build; else mkdir -p dist && cp placeholder/index.html dist/; fi"
+  publish = "dist"
