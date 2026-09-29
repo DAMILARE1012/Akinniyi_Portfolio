@@ -12,7 +12,7 @@ export default function Experience() {
       index="03"
       label="Experience"
       title="Professional experience"
-      intro="Site engineering and quality control across electrical projects and cable manufacturing in Lagos."
+      intro="Site engineering and quality control across electrical projects and cable manufacturing in Lagos and Ogun State."
     >
       <ol className="[&>li:last-child_article]:pb-0">
         {experience.map((job) => (

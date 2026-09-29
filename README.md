@@ -21,7 +21,7 @@ Edit `.env`:
 | Variable | Purpose |
 | --- | --- |
 | `VITE_SITE_URL` | The real public domain (no trailing slash). Drives the canonical URL, Open Graph/Twitter tags, JSON-LD, `robots.txt` and `sitemap.xml`. |
-| `VITE_CONTACT_ENDPOINT` | Optional [Formspree](https://formspree.io) (or any JSON POST) endpoint. If empty, the contact form opens a pre-filled WhatsApp chat instead. |
+| `VITE_CONTACT_ENDPOINT` | Optional [Formspree](https://formspree.io) (or any JSON POST) endpoint. If empty, the contact form opens the visitor's email app with a pre-filled message instead. |
 
 After deploying, submit `https://<your-domain>/sitemap.xml` in Google Search Console.
 

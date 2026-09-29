@@ -7,7 +7,7 @@ function Method({ icon, label, value, href, external }) {
       <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-accent-soft text-accent">{icon}</span>
       <span className="min-w-0 flex-1">
         <span className="block font-mono text-[11px] uppercase tracking-wider text-subtle">{label}</span>
-        <span className="block truncate font-semibold text-fg">{value}</span>
+        <span className="block font-semibold [overflow-wrap:anywhere] text-fg">{value}</span>
       </span>
       {href && (
         <ArrowUpRight

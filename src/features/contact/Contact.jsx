@@ -22,7 +22,7 @@ export default function Contact() {
           <p className="mt-6 text-sm text-subtle">References available upon request.</p>
         </Reveal>
         <Reveal delay={120}>
-          <ContactForm phone={profile.phone} />
+          <ContactForm email={profile.email} />
         </Reveal>
       </div>
     </Section>

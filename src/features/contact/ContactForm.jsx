@@ -6,13 +6,14 @@ import { useSendMessageMutation } from '../../services/portfolioApi';
 import FormField from './FormField';
 import validate, { EMPTY_FORM } from './validate';
 
-// Without a configured endpoint the form hands off to a pre-filled WhatsApp chat.
-const openWhatsApp = (phone, { name, email, message }) => {
-  const text = `Hello Abraham, I'm ${name} (${email}).\n\n${message}`;
-  window.open(`https://wa.me/${phone.replace(/\D/g, '')}?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
+// Without a configured endpoint the form hands off to the visitor's email app.
+const openEmail = (to, { name, email, message }) => {
+  const subject = `Portfolio enquiry from ${name}`;
+  const body = `${message}\n\n— ${name} (${email})`;
+  window.location.href = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 };
 
-export default function ContactForm({ phone }) {
+export default function ContactForm({ email: recipient }) {
   const [form, setForm] = useState(EMPTY_FORM);
   const [errors, setErrors] = useState({});
   const [handedOff, setHandedOff] = useState(false);
@@ -33,7 +34,7 @@ export default function ContactForm({ phone }) {
     if (form._gotcha) return; // honeypot filled in: silently drop the bot
 
     if (!CONTACT_ENDPOINT) {
-      openWhatsApp(phone, form);
+      openEmail(recipient, form);
       setHandedOff(true);
       return;
     }
@@ -97,12 +98,12 @@ export default function ContactForm({ phone }) {
       )}
       {handedOff && (
         <p role="status" className="text-sm text-muted">
-          WhatsApp opened in a new tab with your message ready to send.
+          Your email app should now be open with the message ready to send.
         </p>
       )}
 
       <div className="flex flex-col-reverse gap-4 sm:flex-row sm:items-center sm:justify-between">
-        {!CONTACT_ENDPOINT && <p className="text-xs text-subtle">Your message opens in WhatsApp, ready to send.</p>}
+        {!CONTACT_ENDPOINT && <p className="text-xs text-subtle">Your message opens in your email app, ready to send.</p>}
         <Button type="submit" disabled={isLoading} className="sm:ml-auto">
           {isLoading ? (
             <LoaderCircle className="size-4 animate-spin" aria-hidden="true" />

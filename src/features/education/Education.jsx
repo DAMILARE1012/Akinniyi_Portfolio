@@ -51,7 +51,11 @@ export default function Education() {
                   key={cert.title}
                   className="flex flex-col gap-1 py-4 first:pt-0 last:pb-0 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6"
                 >
-                  <p className="font-semibold leading-snug">{cert.title}</p>
+                  <div>
+                    <p className="font-semibold leading-snug">{cert.title}</p>
+                    {/* Show the issuer only when the title doesn't already name it */}
+                    {!cert.title.includes(cert.issuer) && <p className="mt-0.5 text-sm text-muted">{cert.issuer}</p>}
+                  </div>
                   <p className="shrink-0 font-mono text-xs uppercase tracking-wider text-subtle">{cert.date}</p>
                 </li>
               ))}
